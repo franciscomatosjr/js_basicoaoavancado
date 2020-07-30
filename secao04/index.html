@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Seção 04 - Aula 02</title>
+    <title>Seção 04 - Aula 03</title>
     <meta charset="UTF-8">
 </head>
 <body>
-    <h1>Seção 04 - aula 02</h1>
+    <h1>Seção 04 - aula 03</h1>
+
     <script>
-        var nome1 = "Geek University";
-        var nome2 = "JavaScript";
+        var idade = 13;
+        if (idade >= 18){
+            console.log("Maior de idade!");
+        }else{
+            console.log("Menor de idade!");
+        }
 
-        nome1 = "Geek";
-        nome2 = 42;
+        if (idade <= 14){
+            console.log("Criança")
+        }else if (idade > 14 && idade < 18 ){
+            console.log("Adolescente");
+        }else{
+            console.log("Adulto");
+        }
 
-        // Principais tipos de dado
-        var nome   = "Geek"; // string
-        var idade  = 18;     // int
-        var altura = 1.72;   // float
-        var ativo  = true;   // boolean
-        var alunos = ["Pedro", "Gustavo", "Camila"]; //vetor (array)
-        var aluno  = {
-            nome  : "Juliana",
-            idade : 17,
-            peso  : 58.4,
-            ativo : true
-        }; // Objeto
+        // Dica Geek
+        if (1 == '1'){
+            console.log("Sim, 1 == '1'")
+        }else{
+            console.log("Não")
+        }
+
+        // Dica Geek - Verifica o valor e o tipo de dado
+        if (1 === '1'){
+            console.log("Sim, 1 == '1'")
+        }else{
+            console.log("Não")
+        }        
     </script>
     
 </body>
