@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Seção 04 - Aula 12</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Seção 04 - Aula 13 - Escopo de variáveis</h1>
+    <script> 
+        function somar(num1, num2){
+            // variável local, só é reconhecida dentro do bloco da função
+            var valor = 5;
+            return valor + num1 + num2;
+        };
+
+        for (var i = 0 ; i< 5;i++){
+            var outra = 5;
+            console.log(i * outra);
+        };
+
+        console.log(somar(4,6));
+
+    </script>
+    
+</body>
+</html>
